@@ -1,0 +1,81 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #fdbb2d, #22c1c3);
+    height: 100%;
+    min-height: 100vh;
+}
+
+#title {
+    font: bold 48px 'Dosis', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    color: #202020;
+}
+
+#title-description {
+    text-align: center;
+    margin-top: 5px;
+    font: 17px 'Roboto', sans-serif;
+    color: #202020;
+}
+
+#img-div {
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    margin: 25px auto 25px auto; 
+    border: 10px solid white;
+    border-radius: 25px;
+    max-width: 50%;
+}
+
+#image {
+    max-width: 100%;
+    margin: auto; 
+    border-radius: 25px;
+}
+
+#img-caption {
+    position: relative;
+    top: 5px;
+    font: italic 13px 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #202020;
+    margin: 0px;
+}
+
+#tribute-info {
+    margin: auto; 
+    font: 15px 'Roboto', sans-serif;
+    color: #202020;
+    text-align: center;
+    line-height: 25px;
+}
+
+#tribute-info ul {
+    text-align: left;
+}
+
+#quote {
+    font: italic bold 15px 'Roboto', sans-serif;
+    color: #202020;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 25px;
+}
+
+#tribute-link {
+    font: italic 13px 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #202020;
+    text-align: center;
+    margin: 35px;
+    letter-spacing: 0.5px;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
